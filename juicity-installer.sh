@@ -7,6 +7,7 @@ SERVICE_FILE="/etc/systemd/system/juicity.service"
 JUICITY_SERVER="$INSTALL_DIR/juicity-server"
 
 # Function to print characters with delay
+# Function to print characters with delay
 print_with_delay() {
     text="$1"
     delay="$2"
